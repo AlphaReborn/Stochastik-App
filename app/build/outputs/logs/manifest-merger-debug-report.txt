@@ -41,6 +41,46 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:16:17
 	android:name
 		ADDED from AndroidManifest.xml:16:27
+activity#com.alphareborn.stochastik_app.WuerfelMenu
+ADDED from AndroidManifest.xml:19:9
+	android:label
+		ADDED from AndroidManifest.xml:21:13
+	android:name
+		ADDED from AndroidManifest.xml:20:13
+intent-filter#android.intent.category.DEFAULT+test
+ADDED from AndroidManifest.xml:22:13
+action#test
+ADDED from AndroidManifest.xml:23:17
+	android:name
+		ADDED from AndroidManifest.xml:23:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:24:17
+	android:name
+		ADDED from AndroidManifest.xml:24:27
+activity#com.alphareborn.stochastik_app.MuenzMenu
+ADDED from AndroidManifest.xml:27:5
+	android:label
+		ADDED from AndroidManifest.xml:29:9
+	android:name
+		ADDED from AndroidManifest.xml:28:9
+activity#com.alphareborn.stochastik_app.BaumMenu
+ADDED from AndroidManifest.xml:35:9
+	android:label
+		ADDED from AndroidManifest.xml:37:13
+	android:name
+		ADDED from AndroidManifest.xml:36:13
+activity#com.alphareborn.stochastik_app.FelderMenu
+ADDED from AndroidManifest.xml:43:9
+	android:label
+		ADDED from AndroidManifest.xml:45:13
+	android:name
+		ADDED from AndroidManifest.xml:44:13
+activity#com.alphareborn.stochastik_app.UrneMenu
+ADDED from AndroidManifest.xml:51:9
+	android:label
+		ADDED from AndroidManifest.xml:53:13
+	android:name
+		ADDED from AndroidManifest.xml:52:13
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from com.android.support:appcompat-v7:22.2.0:20:5

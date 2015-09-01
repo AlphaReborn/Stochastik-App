@@ -1,12 +1,12 @@
 package com.alphareborn.stochastik_app;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 
 public class FragmentFive extends Fragment {
     @Override
@@ -21,8 +21,8 @@ public class FragmentFive extends Fragment {
 
             @Override
             public void onClick(View v) {
-                TextView text = (TextView) view.findViewById(R.id.text5);
-                text.setText("Wuhuuu!!!!");
+                Intent myIntent = new Intent(FragmentFive.this.getActivity(), FelderMenu.class);
+                FragmentFive.this.startActivity(myIntent);
 
             }
 
