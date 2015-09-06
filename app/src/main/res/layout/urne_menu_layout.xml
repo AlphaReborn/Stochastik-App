@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="fill_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Urne!"
-        android:id="@+id/textView2"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
-</RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/drop_shadow2"
+        android:layout_weight="33"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:background="#E0E0E0"
+        android:layout_height="0dp"
+        android:layout_weight="33"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:background="@drawable/drop_shadow"
+        android:layout_height="0dp"
+        android:layout_weight="33"/>
+</LinearLayout>
