@@ -16,45 +16,53 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="WuerfelMenu"
-            android:label="@string/app_name" >
+        <activity android:name=".WuerfelMenu">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.alphareborn.stochastik_app." />
             <intent-filter>
                 <action android:name="test" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-    <activity
-        android:name="MuenzMenu"
-        android:label="@string/app_name" >
-        <intent-filter>
-            <action android:name="test" />
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
-    </activity>
-        <activity
-            android:name="BaumMenu"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="test" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
-            android:name="FelderMenu"
+            android:name=".BaumMenu"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="test" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
-            android:name="UrneMenu"
+            android:name=".FelderMenu"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="test" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MuenzMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alphareborn.stochastik_app.MainActivity" />
+        </activity>
+        <activity android:name=".MuenzRechner">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alphareborn.stochastik_app.MuenzMenu" />
+        </activity>
+        <activity android:name=".UrneMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alphareborn.stochastik_app.MainActivity" />
+        </activity>
+        <activity android:name=".UrneRechner" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alphareborn.stochastik_app.UrneMenu" />
         </activity>
     </application>
 

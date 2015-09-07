@@ -22,18 +22,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.alphareborn.stochastik_app.WuerfelMenu"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="test" />
+        <activity android:name="com.alphareborn.stochastik_app.WuerfelMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alphareborn.stochastik_app.MainActivity" />
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.alphareborn.stochastik_app.MuenzMenu"
-            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="test" />
 
@@ -58,14 +51,25 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.alphareborn.stochastik_app.UrneMenu"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="test" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
+        <activity android:name="com.alphareborn.stochastik_app.MuenzMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alphareborn.stochastik_app.MainActivity" />
+        </activity>
+        <activity android:name="com.alphareborn.stochastik_app.MuenzRechner" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alphareborn.stochastik_app.MuenzMenu" />
+        </activity>
+        <activity android:name="com.alphareborn.stochastik_app.UrneMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alphareborn.stochastik_app.MainActivity" />
+        </activity>
+        <activity android:name="com.alphareborn.stochastik_app.UrneRechner" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alphareborn.stochastik_app.UrneMenu" />
         </activity>
     </application>
 
