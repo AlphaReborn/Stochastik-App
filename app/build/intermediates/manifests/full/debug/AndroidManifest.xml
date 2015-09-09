@@ -33,24 +33,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.alphareborn.stochastik_app.BaumMenu"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="test" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.alphareborn.stochastik_app.FelderMenu"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="test" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
         <activity android:name="com.alphareborn.stochastik_app.MuenzMenu" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -70,6 +52,31 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.alphareborn.stochastik_app.UrneMenu" />
+        </activity>
+        <activity android:name="com.alphareborn.stochastik_app.WuerfelRechner" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alphareborn.stochastik_app.WuerfelMenu" />
+        </activity>
+        <activity android:name="com.alphareborn.stochastik_app.BaumMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alphareborn.stochastik_app.MainActivity" />
+        </activity>
+        <activity android:name="com.alphareborn.stochastik_app.BaumRechner" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alphareborn.stochastik_app.BaumMenu" />
+        </activity>
+        <activity android:name="com.alphareborn.stochastik_app.FelderMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alphareborn.stochastik_app.MainActivity" />
+        </activity>
+        <activity android:name="com.alphareborn.stochastik_app.FelderRechner" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alphareborn.stochastik_app.FelderMenu" />
         </activity>
     </application>
 

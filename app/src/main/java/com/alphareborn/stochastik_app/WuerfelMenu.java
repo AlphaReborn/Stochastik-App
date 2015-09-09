@@ -15,16 +15,16 @@ public class WuerfelMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.muenze_menu_layout);
+        setContentView(R.layout.wuerfel_menu_layout);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setTitle("Zum Hauptmenü");
 
-        RelativeLayout layout = (RelativeLayout) findViewById(R.id.muenzmenu);
+        RelativeLayout layout = (RelativeLayout) findViewById(R.id.wuerfelrechner);
         layout.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(WuerfelMenu.this, MuenzRechner.class);
+                Intent myIntent = new Intent(WuerfelMenu.this, WuerfelRechner.class);
                 WuerfelMenu.this.startActivity(myIntent);
 
             }
