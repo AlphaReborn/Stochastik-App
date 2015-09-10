@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/Jonas/AndroidStudioProjects/Stochastik-App/app/build/intermediates/exploded-aar/Stochastik-App/library/unspecified/jars/classes.jar"
+        jar="E:\Daten\App-Entwicklung\Stochastik-App\app\build\intermediates\exploded-aar\Stochastik-App\library\unspecified\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="e8edac0cdf7bb742c9492735e79f800a0ba96b58">
-        <dex dex="/Users/Jonas/AndroidStudioProjects/Stochastik-App/app/build/intermediates/pre-dexed/debug/classes-7a781a4e01af218793595bcd942aa440d9008de3.jar" />
+        sha1="9f88bb6e27fdf6b4910791d9bca8faa2ee9e567d">
+        <dex dex="E:\Daten\App-Entwicklung\Stochastik-App\app\build\intermediates\pre-dexed\debug\classes-1a1949773e0500c0d22686fecea7f3ddbf74eec3.jar" />
     </item>
 
 </items>
