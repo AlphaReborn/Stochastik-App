@@ -2,11 +2,39 @@
 <items version="2" >
 
     <item
-        jar="E:\Daten\App-Entwicklung\Stochastik-App\app\build\intermediates\exploded-aar\Stochastik-App\library\unspecified\jars\classes.jar"
+        jar="/Users/Jonas/AndroidStudioProjects/Stochastik-App/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="9f88bb6e27fdf6b4910791d9bca8faa2ee9e567d">
-        <dex dex="E:\Daten\App-Entwicklung\Stochastik-App\app\build\intermediates\pre-dexed\debug\classes-1a1949773e0500c0d22686fecea7f3ddbf74eec3.jar" />
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/Jonas/AndroidStudioProjects/Stochastik-App/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-7899d02a1553762e0e12fbdea1b011598f5cbeaf.jar" />
+    </item>
+    <item
+        jar="/Users/Jonas/AndroidStudioProjects/Stochastik-App/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/Jonas/AndroidStudioProjects/Stochastik-App/app/build/intermediates/pre-dexed/debug/classes-7f99404758f0e6d167074fd47601bf403ce87d0e.jar" />
+    </item>
+    <item
+        jar="/Users/Jonas/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/Jonas/AndroidStudioProjects/Stochastik-App/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-367cb9471d71f99c826e395d898f83303d2b3981.jar" />
+    </item>
+    <item
+        jar="/Users/Jonas/AndroidStudioProjects/Stochastik-App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/Jonas/AndroidStudioProjects/Stochastik-App/app/build/intermediates/pre-dexed/debug/classes-2b996d0cac687fa0fe51a07c40b1be9f2fe9eb2e.jar" />
+    </item>
+    <item
+        jar="/Users/Jonas/AndroidStudioProjects/Stochastik-App/app/build/intermediates/exploded-aar/Stochastik-App/library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fd7902f29178f37f891073ddf6f8bc6028185845">
+        <dex dex="/Users/Jonas/AndroidStudioProjects/Stochastik-App/app/build/intermediates/pre-dexed/debug/classes-7a781a4e01af218793595bcd942aa440d9008de3.jar" />
     </item>
 
 </items>

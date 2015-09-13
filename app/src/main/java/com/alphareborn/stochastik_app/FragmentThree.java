@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 public class FragmentThree extends Fragment {
@@ -14,7 +15,6 @@ public class FragmentThree extends Fragment {
 
 
         final View view = inflater.inflate(R.layout.fragment_three_layout,container,false); // "final View view = ..." ermöglicht view.findViewById
-
 
         RelativeLayout layout = (RelativeLayout) view.findViewById(R.id.layout3);
         layout.setOnClickListener(new View.OnClickListener() {

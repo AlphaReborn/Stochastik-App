@@ -4,13 +4,12 @@
     android:clickable="true"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="3"
-        android:id="@+id/text3"
+        android:id="@+id/wuerfel_image"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_wuerfel_alpha"/>
 </RelativeLayout>
-<!-- From: file:/E:/Daten/App-Entwicklung/Stochastik-App/app/src/main/res/layout/fragment_three_layout.xml -->
+<!-- From: file:/Users/Jonas/AndroidStudioProjects/Stochastik-App/app/src/main/res/layout/fragment_three_layout.xml -->

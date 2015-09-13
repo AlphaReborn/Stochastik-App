@@ -1822,14 +1822,15 @@ containing a value of this type.
         public static final int drop_shadow=0x7f02003b;
         public static final int drop_shadow2=0x7f02003c;
         public static final int feldertafel=0x7f02003d;
-        public static final int notification_template_icon_bg=0x7f020045;
-        public static final int vpi__tab_indicator=0x7f02003e;
-        public static final int vpi__tab_selected_focused_holo=0x7f02003f;
-        public static final int vpi__tab_selected_holo=0x7f020040;
-        public static final int vpi__tab_selected_pressed_holo=0x7f020041;
-        public static final int vpi__tab_unselected_focused_holo=0x7f020042;
-        public static final int vpi__tab_unselected_holo=0x7f020043;
-        public static final int vpi__tab_unselected_pressed_holo=0x7f020044;
+        public static final int logo_wuerfel_alpha=0x7f02003e;
+        public static final int notification_template_icon_bg=0x7f020046;
+        public static final int vpi__tab_indicator=0x7f02003f;
+        public static final int vpi__tab_selected_focused_holo=0x7f020040;
+        public static final int vpi__tab_selected_holo=0x7f020041;
+        public static final int vpi__tab_selected_pressed_holo=0x7f020042;
+        public static final int vpi__tab_unselected_focused_holo=0x7f020043;
+        public static final int vpi__tab_unselected_holo=0x7f020044;
+        public static final int vpi__tab_unselected_pressed_holo=0x7f020045;
     }
     public static final class id {
         public static final int aKugel=0x7f0c0074;
@@ -1936,7 +1937,6 @@ containing a value of this type.
         public static final int text=0x7f0c0070;
         public static final int text1=0x7f0c0060;
         public static final int text2=0x7f0c0064;
-        public static final int text3=0x7f0c0062;
         public static final int text4=0x7f0c005e;
         public static final int text5=0x7f0c005c;
         public static final int textSpacerNoButtons=0x7f0c0037;
@@ -1954,6 +1954,7 @@ containing a value of this type.
         public static final int useLogo=0x7f0c0012;
         public static final int withText=0x7f0c001a;
         public static final int wrap_content=0x7f0c001d;
+        public static final int wuerfel_image=0x7f0c0062;
         public static final int wuerfelrechner=0x7f0c0079;
     }
     public static final class integer {
