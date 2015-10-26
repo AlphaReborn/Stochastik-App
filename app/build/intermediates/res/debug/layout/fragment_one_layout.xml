@@ -2,15 +2,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/layout1"
     android:clickable="true"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#fef7ec">
+    <!--android:background="@mipmap/bg"-->
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="1"
-        android:id="@+id/text1"
+        android:id="@+id/imageView2"
+        android:src="@mipmap/urne"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
-<!-- From: file:/Users/Jonas/AndroidStudioProjects/Stochastik-App/app/src/main/res/layout/fragment_one_layout.xml -->
+<!-- From: file:/Users/Jonas/Documents/App/Stochastik-App/app/src/main/res/layout/fragment_one_layout.xml -->

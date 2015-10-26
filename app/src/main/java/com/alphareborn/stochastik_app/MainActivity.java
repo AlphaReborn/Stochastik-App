@@ -37,7 +37,6 @@ public class MainActivity extends FragmentActivity {
         mIndicator.setFillColor(0xFF888888);
         mIndicator.setSnap(true); // Animation deaktivieren
 
-
     }
 
 }

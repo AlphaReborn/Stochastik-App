@@ -4,4 +4,4 @@
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>
-<!-- From: file:/Users/Jonas/AndroidStudioProjects/Stochastik-App/app/src/main/res/menu/menu_main.xml -->
+<!-- From: file:/Users/Jonas/Documents/App/Stochastik-App/app/src/main/res/menu/menu_main.xml -->
