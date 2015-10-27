@@ -19,7 +19,7 @@ public class FelderMenu extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setTitle("Zum Hauptmenü");
 
-        RelativeLayout layout = (RelativeLayout) findViewById(R.id.rechner);
+        RelativeLayout layout = (RelativeLayout) findViewById(R.id.felderrechner);
         layout.setOnClickListener(new View.OnClickListener() {
 
             @Override

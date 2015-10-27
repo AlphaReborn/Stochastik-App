@@ -4,10 +4,26 @@
     android:layout_width="match_parent" android:layout_height="fill_parent">
 
     <RelativeLayout
+        android:id="@+id/wuerfelaufgaben"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="#f3ffff"
+        android:layout_weight="33">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Aufgaben"
+            android:id="@+id/textView1"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
         android:id="@+id/wuerfelrechner"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
-        android:background="@drawable/drop_shadow2"
+        android:background="#f3f3ff"
         android:layout_weight="33">
 
         <TextView
@@ -15,18 +31,24 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Rechner"
-            android:id="@+id/textView"
-            android:layout_centerInParent="true"
-            />
+            android:id="@+id/textView2"
+            android:layout_centerInParent="true"/>
     </RelativeLayout>
-    <LinearLayout
+
+    <RelativeLayout
+        android:id="@+id/wuerfelerklärung"
         android:layout_width="fill_parent"
-        android:background="#E0E0E0"
+        android:background="#ffffff"
         android:layout_height="0dp"
-        android:layout_weight="33"/>
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:background="@drawable/drop_shadow"
-        android:layout_height="0dp"
-        android:layout_weight="33"/>
+        android:layout_weight="33">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Erklärung"
+            android:id="@+id/textView3"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
 </LinearLayout>

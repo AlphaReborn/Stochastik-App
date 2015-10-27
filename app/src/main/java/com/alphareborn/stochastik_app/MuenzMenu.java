@@ -19,7 +19,7 @@ public class MuenzMenu extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setTitle("Zum Hauptmenü");
 
-        RelativeLayout layout = (RelativeLayout) findViewById(R.id.muenzmenu);
+        RelativeLayout layout = (RelativeLayout) findViewById(R.id.muenzrechner);
         layout.setOnClickListener(new View.OnClickListener() {
 
             @Override
