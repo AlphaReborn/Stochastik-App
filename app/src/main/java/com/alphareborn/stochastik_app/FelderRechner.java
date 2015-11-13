@@ -60,59 +60,96 @@ public class FelderRechner extends AppCompatActivity{
                 String PvonG_V = PvonG.getText().toString();
 
                 try {
-                    if (PvonAS_V.equals("")){
-                        PvonAS.setText("0");
+                    if (PvonAS_V.equals("") && PvonA_V.equals("") && PvonB_V.equals("") && PvonBS_V.equals("") && PvonASundB_V.equals("") && PvonAundB_V.equals("") && PvonASundBS_V.equals("") && PvonAundBS_V.equals("")){
+                        PvonG.setText("0");
                     } else {
-                        int PvonAS_VZ = Integer.valueOf(PvonAS_V);
+                        Log.d("Stochastik-App", "1");
+                        if (PvonAundB_V.equals("") && PvonASundB_V.equals("") && PvonB_V.equals("")) {
+                            if (PvonAundBS_V.equals("") && PvonASundBS_V.equals("") && PvonBS_V.equals("")) {
+                                if (PvonA_V.equals("") && PvonAS_V.equals("") && PvonG_V.equals("")) {
+                                    PvonG.setText("blub");
+                                } else {
+                                    if (PvonA_V.equals("")) {
+                                        int PvonAS_VZ = Integer.valueOf(PvonAS_V);
+                                        int PvonG_VZ = Integer.valueOf(PvonG_V);
+                                        PvonA.setText(String.valueOf(PvonG_VZ - PvonAS_VZ));
+                                        PvonAS.setText(String.valueOf(PvonAS_VZ));
+                                        PvonG.setText(String.valueOf(PvonG_VZ));
+                                    } else {
+                                        if (PvonAS_V.equals("")) {
+                                            int PvonA_VZ = Integer.valueOf(PvonA_V);
+                                            int PvonG_VZ = Integer.valueOf(PvonG_V);
+                                            PvonAS.setText(String.valueOf(PvonG_VZ - PvonA_VZ));
+                                            PvonG.setText(String.valueOf(PvonG_VZ));
+                                            PvonA.setText(String.valueOf(PvonA_VZ));
+                                        } else {
+                                            if (PvonG_V.equals("")) {
+                                                int PvonA_VZ = Integer.valueOf(PvonA_V);
+                                                int PvonAS_VZ = Integer.valueOf(PvonAS_V);
+                                                PvonG.setText(String.valueOf(PvonA_VZ + PvonAS_VZ));
+                                                PvonAS.setText(String.valueOf(PvonAS_VZ));
+                                                PvonA.setText(String.valueOf(PvonA_VZ));
+                                            }
+                                        }
+                                    }
+                                } //hier muss noch was
+                            }else {
+                                if (PvonAundBS_V.equals("")){
+                                    int PvonASundBS_VZ = Integer.valueOf(PvonASundBS_V);
+                                    int PvonBS_VZ = Integer.valueOf(PvonBS_V);
+                                    PvonAundBS.setText(String.valueOf(PvonBS_VZ-PvonASundBS_VZ));
+                                    PvonBS.setText(String.valueOf(PvonBS_VZ));
+                                    PvonASundBS.setText(String.valueOf(PvonASundBS_VZ));
+                                }else {
+                                    if (PvonASundBS_V.equals("")){
+                                        int PvonAundBS_VZ = Integer.valueOf(PvonAundBS_V);
+                                        int PvonBS_VZ = Integer.valueOf(PvonBS_V);
+                                        PvonASundBS.setText(String.valueOf(PvonBS_VZ-PvonAundBS_VZ));
+                                        PvonBS.setText(String.valueOf(PvonBS_VZ));
+                                        PvonAundBS.setText(String.valueOf(PvonAundBS_VZ));
+                                    }else {
+                                        if (PvonBS_V.equals("")){
+                                            int PvonAundBS_VZ = Integer.valueOf(PvonAundBS_V);
+                                            int PvonASundBS_VZ = Integer.valueOf(PvonASundBS_V);
+                                            PvonBS.setText(String.valueOf(PvonAundBS_VZ+PvonASundBS_VZ));
+                                            PvonAundBS.setText(String.valueOf(PvonAundBS_VZ));
+                                            PvonASundBS.setText(String.valueOf(PvonASundBS_VZ));
+                                        }
+                                    }
+                                }
+                            } //hier auch
+                        }else {
+                            Log.d("Stochastik-App", "2");
+                            if (PvonAundB_V.equals("")){
+                                int PvonASundB_VZ = Integer.valueOf(PvonASundB_V);
+                                int PvonB_VZ = Integer.valueOf(PvonB_V);
+                                PvonAundB.setText(String.valueOf(PvonB_VZ-PvonASundB_VZ));
+                                PvonB.setText(String.valueOf(PvonB_VZ));
+                                PvonASundB.setText(String.valueOf(PvonASundB_VZ));
+                            }else {
+                                Log.d("Stochastik-App", "3");
+                                if (PvonASundB_V.equals("")){
+                                    int PvonAundB_VZ = Integer.valueOf(PvonAundB_V);
+                                    int PvonB_VZ = Integer.valueOf(PvonB_V);
+                                    PvonASundB.setText(String.valueOf(PvonB_VZ-PvonAundB_VZ));
+                                    PvonB.setText(String.valueOf(PvonB_VZ));
+                                    PvonAundB.setText(String.valueOf(PvonAundB_VZ));
+                                }else {
+                                    Log.d("Stochastik-App", "4");
+                                    if (PvonB_V.equals("")){
+                                        int PvonAundB_VZ = Integer.valueOf(PvonAundB_V);
+                                        int PvonASundB_VZ = Integer.valueOf(PvonASundB_V);
+                                        PvonB.setText(String.valueOf(PvonAundB_VZ+PvonASundB_VZ));
+                                        PvonAundB.setText(String.valueOf(PvonAundB_VZ));
+                                        PvonASundB.setText(String.valueOf(PvonASundB_VZ));
+                                    }
+                                }
+                            }
+                        } //hier auch!
                     }
-                    if (PvonAundB_V.equals("") && PvonASundB_V.equals("")){
-                        PvonB.setText("");
-                    }else {
-                        int PvonAundB_VZ = Integer.valueOf(PvonAundB_V);
-                        int PvonASundB_VZ = Integer.valueOf(PvonASundB_V);
-                        PvonB.setText(String.valueOf(PvonAundB_VZ+PvonASundB_VZ));
-                    }
-                    if (PvonAundBS_V.equals("") && PvonASundBS_V.equals("")){
-                        PvonBS.setText("");
-                    }else {
-                        int PvonAundBS_VZ =Integer.valueOf(PvonAundBS_V);
-                        int PvonASundBS_VZ =Integer.valueOf(PvonASundBS_V);
-                        PvonBS.setText(String.valueOf(PvonAundBS_VZ+PvonASundBS_VZ));
-                    }
-                    if (PvonAundB_V.equals("") && PvonAundBS_V.equals("")){
-                        PvonA.setText("");
-                    }else {
-                        int PvonAundB_VZ = Integer.valueOf(PvonAundB_V);
-                        int PvonAundBS_VZ = Integer.valueOf(PvonAundBS_V);
-                        PvonA.setText(String.valueOf(PvonAundB_VZ+PvonAundBS_VZ));
-                    }
-                    if (PvonASundB_V.equals("") && PvonASundBS_V.equals("")){
-                        PvonAS.setText("");
-                    }else {
-                        int PvonASundB_VZ = Integer.valueOf(PvonASundB_V);
-                        int PvonASundBS_VZ = Integer.valueOf(PvonASundBS_V);
-                        PvonAS.setText(String.valueOf(PvonASundB_VZ+PvonASundBS_VZ));
-                    }
-                    if (PvonB_V.equals("") && PvonBS_V.equals("")){
-                        PvonG.setText("");
-                    }else {
-                        int PvonB_VZ = Integer.valueOf(PvonB_V);
-                        int PvonBS_VZ = Integer.valueOf(PvonBS_V);
-                        PvonG.setText(String.valueOf(PvonB_VZ+PvonBS_VZ));
-                    }
-                    if (PvonA_V.equals("") && PvonAS_V.equals("")){
-                        PvonG.setText("");
-                    }else {
-                        int PvonA_VZ = Integer.valueOf(PvonA_V);
-                        int PvonAS_VZ = Integer.valueOf(PvonAS_V);
-                        PvonG.setText(String.valueOf(PvonA_VZ+PvonAS_VZ));
-                    }
-
-                    //PvonG.setText(String.valueOf(PvonA_VZ+PvonAS_VZ));
-
-            } catch (NumberFormatException e){
-                PvonG.setText("0");
-            }
+                } catch (NumberFormatException e){
+                    PvonG.setText("Geht nicht!");
+                }
             }
 
         });
