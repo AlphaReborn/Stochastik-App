@@ -16,7 +16,7 @@ public class FragmentOne extends Fragment {
 
 
 
-
+//Huhu
         final View view = inflater.inflate(R.layout.fragment_one_layout,container,false); // "final View view = ..." ermöglicht view.findViewById
 
 
