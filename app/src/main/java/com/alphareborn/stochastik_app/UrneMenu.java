@@ -19,7 +19,7 @@ public class UrneMenu extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setTitle("Zum Hauptmenü");
 
-        RelativeLayout layout = (RelativeLayout) findViewById(R.id.urnerechner);
+        /*RelativeLayout layout = (RelativeLayout) findViewById(R.id.urnerechner);
         layout.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -30,7 +30,7 @@ public class UrneMenu extends AppCompatActivity {
             }
 
         });
-
+*/
 
     }
 

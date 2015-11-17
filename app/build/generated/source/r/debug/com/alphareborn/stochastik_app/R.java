@@ -1832,7 +1832,7 @@ containing a value of this type.
         public static final int vpi__tab_unselected_pressed_holo=0x7f020044;
     }
     public static final class id {
-        public static final int aKugel=0x7f0c0097;
+        public static final int aKugel=0x7f0c0095;
         public static final int ab=0x7f0c006c;
         public static final int abs=0x7f0c0071;
         public static final int action0=0x7f0c0087;
@@ -1850,7 +1850,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0c0041;
         public static final int action_mode_bar_stub=0x7f0c0040;
         public static final int action_mode_close_button=0x7f0c0029;
-        public static final int action_settings=0x7f0c009e;
+        public static final int action_settings=0x7f0c00a1;
         public static final int activity_chooser_view_content=0x7f0c002a;
         public static final int alertTitle=0x7f0c0034;
         public static final int always=0x7f0c0016;
@@ -1881,7 +1881,7 @@ containing a value of this type.
         public static final int endsumme=0x7f0c0072;
         public static final int expand_activities_button=0x7f0c002b;
         public static final int expanded_menu=0x7f0c003b;
-        public static final int fKugel=0x7f0c0098;
+        public static final int fKugel=0x7f0c0096;
         public static final int felderaufgaben=0x7f0c005b;
         public static final int feldererklaerung=0x7f0c005d;
         public static final int felderrechner=0x7f0c005c;
@@ -1890,6 +1890,7 @@ containing a value of this type.
         public static final int icon=0x7f0c002f;
         public static final int ifRoom=0x7f0c0018;
         public static final int image=0x7f0c002c;
+        public static final int imageView=0x7f0c0094;
         public static final int imageView2=0x7f0c007a;
         public static final int imageView3=0x7f0c007e;
         public static final int imageView4=0x7f0c007c;
@@ -1917,13 +1918,17 @@ containing a value of this type.
         public static final int normal=0x7f0c000a;
         public static final int output=0x7f0c0082;
         public static final int output2=0x7f0c0084;
+        public static final int output3=0x7f0c009d;
+        public static final int output4=0x7f0c009e;
+        public static final int output5=0x7f0c009f;
+        public static final int output6=0x7f0c00a0;
         public static final int pager=0x7f0c0053;
         public static final int parentPanel=0x7f0c0031;
         public static final int progress_circular=0x7f0c0005;
         public static final int progress_horizontal=0x7f0c0006;
         public static final int radio=0x7f0c003e;
-        public static final int radioButton=0x7f0c009a;
-        public static final int radioButton2=0x7f0c0099;
+        public static final int radioButton=0x7f0c0098;
+        public static final int radioButton2=0x7f0c0097;
         public static final int relativeLayout=0x7f0c0063;
         public static final int relativeLayout2=0x7f0c0064;
         public static final int relativeLayout3=0x7f0c005f;
@@ -1981,15 +1986,13 @@ containing a value of this type.
         public static final int triangle=0x7f0c001e;
         public static final int underline=0x7f0c001f;
         public static final int up=0x7f0c0008;
-        public static final int urneaufgaben=0x7f0c0094;
-        public static final int urneerklaerung=0x7f0c0096;
-        public static final int urnerechner=0x7f0c0095;
         public static final int useLogo=0x7f0c0012;
         public static final int withText=0x7f0c001a;
         public static final int wrap_content=0x7f0c001d;
-        public static final int wuerfelaufgaben=0x7f0c009b;
-        public static final int wuerfelerklärung=0x7f0c009d;
-        public static final int wuerfelrechner=0x7f0c009c;
+        public static final int wuerfel_rechner=0x7f0c009c;
+        public static final int wuerfelaufgaben=0x7f0c0099;
+        public static final int wuerfelerklärung=0x7f0c009b;
+        public static final int wuerfelrechner=0x7f0c009a;
         public static final int wurfzahl=0x7f0c0085;
     }
     public static final class integer {
@@ -2070,10 +2073,12 @@ containing a value of this type.
         public static final int baumdia=0x7f030000;
         public static final int bg=0x7f030001;
         public static final int felder=0x7f030002;
-        public static final int ic_launcher=0x7f030003;
-        public static final int muenze=0x7f030004;
-        public static final int urne=0x7f030005;
-        public static final int wuerfel=0x7f030006;
+        public static final int hexa_button_1=0x7f030003;
+        public static final int hexa_raster=0x7f030004;
+        public static final int ic_launcher=0x7f030005;
+        public static final int muenze=0x7f030006;
+        public static final int urne=0x7f030007;
+        public static final int wuerfel=0x7f030008;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f060000;

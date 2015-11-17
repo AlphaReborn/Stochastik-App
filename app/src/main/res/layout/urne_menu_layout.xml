@@ -1,55 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent" android:layout_height="fill_parent">
 
-    <RelativeLayout
-        android:id="@+id/urneaufgaben"
-        android:layout_width="fill_parent"
-        android:layout_height="0dp"
-        android:background="#f3ffff"
-        android:layout_weight="33">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Aufgaben"
-            android:id="@+id/textView1"
-            android:layout_centerInParent="true"/>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/urnerechner"
-        android:layout_width="fill_parent"
-        android:layout_height="0dp"
-        android:background="#f3f3ff"
-        android:layout_weight="33">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Rechner"
-        android:id="@+id/textView2"
-        android:layout_centerInParent="true"/>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/urneerklaerung"
-        android:layout_width="fill_parent"
-        android:background="#ffffff"
-        android:layout_height="0dp"
-        android:layout_weight="33">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Erklärung"
-        android:id="@+id/textView3"
-        android:layout_centerInParent="true"/>
-
-    </RelativeLayout>
-
-</LinearLayout>
+    <ImageView
+        android:layout_width="566dp"
+        android:layout_height="651dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:src="@mipmap/hexa_raster" />
+</FrameLayout>

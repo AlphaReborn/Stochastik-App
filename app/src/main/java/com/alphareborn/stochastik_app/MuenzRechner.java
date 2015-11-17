@@ -47,18 +47,18 @@ public class MuenzRechner extends AppCompatActivity {
 
 
                 for (int i = 0; i < number; i++) {
-                    if (Math.random() < 0.5) {
+                    if (Math.random() < 0.5)
                         text.setText("Kopf: " + ++kopfcounter);
-                     }
-                    else {
+                    else
                         text2.setText("Zahl: " + ++zahlcounter);
-                    }
+
                 }
+
                 if (kopfcounter == number)
-                    text2.setText("Zahl: 0");
+                    text2.setText("Zahl: " + "0");
 
                 if (zahlcounter == number)
-                    text.setText("Kopf: 0");
+                    text.setText("Kopf: " + "0");
 
             }
 
