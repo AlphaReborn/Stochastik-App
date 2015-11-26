@@ -14,4 +14,4 @@
         android:layout_centerHorizontal="true"
         android:src="@mipmap/wuerfel" />
 </RelativeLayout>
-<!-- From: file:/E:/Daten/App-Entwicklung/Stochastik-App/app/src/main/res/layout/fragment_three_layout.xml -->
+<!-- From: file:/Users/Jonas/Documents/App/Stochastik-App/app/src/main/res/layout/fragment_three_layout.xml -->
