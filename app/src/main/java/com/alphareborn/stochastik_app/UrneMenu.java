@@ -1,11 +1,13 @@
 package com.alphareborn.stochastik_app;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 public class UrneMenu extends AppCompatActivity {
@@ -31,8 +33,19 @@ public class UrneMenu extends AppCompatActivity {
 
         });
 */
+        ImageView layout = (ImageView) findViewById(R.id.button_mid);
+        layout.setOnClickListener(new View.OnClickListener() {
 
-    }
+        @Override
+        public void onClick(View v) {
+            Intent myIntent = new Intent(UrneMenu.this, UrneRechner.class);
+            UrneMenu.this.startActivity(myIntent);
+
+        }
+
+        });
+
+        }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
